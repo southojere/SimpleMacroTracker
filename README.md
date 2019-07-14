@@ -1,6 +1,6 @@
 <h1>Macro Tracker</h1>
 
-Health and fitness mpbile macro tracker, that allows users to keep track and manage there macros.
+Health and fitness mobile macro tracker, that allows users to keep track and manage there macros.
 
 Still under development :)
 

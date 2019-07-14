@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>
+      Macros
+    </ion-list-header>
+    <ion-item>
+      <h3>Carbs: <span>{{getTotalCarbs()}}</span></h3>
+    </ion-item>
+    <ion-item>
+      <h3>Protein: <span>{{getTotalProtein()}}</span></h3>
+    </ion-item>
+    <ion-item>
+      <h3>Fat: <span>{{getTotalFat()}}</span></h3>
+    </ion-item>
+  </ion-list>
+  <ion-item-group>
+    <ion-label>New entry:</ion-label>
+    <ion-item>
+      <ion-input #carbsInput type='number'  placeholder="Carbs"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input #proteinInput type='number' placeholder="Protein"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input #fatInput type='number'  placeholder="Fat" ></ion-input>
+    </ion-item>
+    <button (click) = 'addToTotals(carbsInput,proteinInput,fatInput)' ion-button style="width:100%;">Add</button>
+  </ion-item-group>
+
+  <!-- <ion-label floating>Carbs</ion-label>
+    <ion-input type="float" value=""></ion-input>
+
+    <ion-label floating>Protein</ion-label>
+    <ion-input type="float" value=""></ion-input>
+
+    <ion-label floating>Fat</ion-label>
+    <ion-input type="float" value=""></ion-input> -->
+
+</ion-content>

@@ -1,0 +1,22 @@
+page-about {
+
+}
+
+.foodItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foodItemMacros {
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-left: 1rem;
+    }
+
+    button {
+        margin-left: 2rem;
+    }
+}

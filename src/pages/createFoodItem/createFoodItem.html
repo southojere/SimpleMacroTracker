@@ -10,21 +10,21 @@
   <ion-item-group>
     <ion-item>
       <ion-label position="floating">Name</ion-label>
-      <ion-input ></ion-input>
+      <ion-input type="text" #name></ion-input>
 
     </ion-item>
     <ion-item>
       <ion-label position="floating">Carbs</ion-label>
-      <ion-input></ion-input>
+      <ion-input type="number" #carbs></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Protein</ion-label>
-      <ion-input></ion-input>
+      <ion-input type="number" #protein></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Fat</ion-label>
-      <ion-input></ion-input>
+      <ion-input type="number" #fat></ion-input>
     </ion-item>
   </ion-item-group>
-  <button ion-button style="width:100%" (click) ="createNewFoodListItem()">Add</button>
+  <button ion-button style="width:100%" (click)="createNewFoodListItem(name,carbs,protein,fat)">Add</button>
 </ion-content>

@@ -16,12 +16,12 @@
 
         <ion-item *ngFor='let item of getFoodList()'>
           <div class='foodItem'>
-            <p>{{item.name}}</p>
+            <p #name>{{item.name}}</p>
             <div class="foodItemMacros"> 
-              <p>{{item.carbs}}</p>
-              <p>{{item.protein}}</p>
-              <p>{{item.fat}}</p>
-              <button type="submit" ion-button>Add</button>
+              <p #carbs>{{item.carbs}}</p>
+              <p #protein>{{item.protein}}</p>
+              <p #fat>{{item.fat}}</p>
+              <button type="submit" ion-button (click) ="addItemToTotal(carbs, protein,fat)">Add</button>
             </div>
           </div>
         </ion-item>

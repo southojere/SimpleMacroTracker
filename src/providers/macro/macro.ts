@@ -23,48 +23,56 @@ export class MacroProvider {
 
     this.foodList = [
       {
+        id: 1,
         name: 'Weetbix',
         carbs: 24,
         protein: 6,
         fat: 1
       },
       {
+        id: 2,
         name: 'Toast',
         carbs: 25,
         protein: 8,
         fat: 2
       },
       {
+        id: 3,
         name: 'Egg',
         carbs: 3,
         protein: 7,
         fat: 1
       },
       {
+        id: 4,
         name: 'Baked Beans',
         carbs: 30,
         protein: 8,
         fat: 5
       },
       {
+        id: 5,
         name: 'Watermellon',
         carbs: 6,
         protein: 1,
         fat: 0
       },
       {
+        id: 6,
         name: 'Big Mac',
         carbs: 40,
         protein: 14.5,
         fat: 9.5
       },
       {
+        id: 7,
         name: 'Chips',
         carbs: 20,
         protein: 5,
         fat: 7
       },
       {
+        id: 8,
         name: 'Adeline',
         carbs: 10000,
         protein: 10,
